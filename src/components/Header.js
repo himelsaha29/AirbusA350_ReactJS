@@ -12,12 +12,12 @@ const Header = () => {
             <div className='header_center'>
                 <p>A350-800</p>
                 <p>A350-900</p>
-                <p>A350-1000XWB</p>
+                <p>A350-1000</p>
             </div>
             
             <div className='header_right'>
-                <p>Specifications</p>
-                <p>Airbus account</p>
+                <p>Shop</p>
+                <p>Account</p>
             </div>
 
         </div>
