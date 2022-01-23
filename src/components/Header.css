@@ -11,8 +11,8 @@
 }
 
 .header_logo{
-    height: 24px;
-    width: 100px;
+    height: fit-content;
+    width: fit-content;
     margin-top: 7px;
 }
 
@@ -35,4 +35,5 @@
 
 .header_right>p{
     margin: 18px;
+    margin-right: 20px;
 }
