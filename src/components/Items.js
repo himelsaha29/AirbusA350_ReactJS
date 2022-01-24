@@ -1,6 +1,7 @@
 import React from 'react'
+import Button from './Button'
 
-const Items = () => {
+const Items = ({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons}) => {
     return (
         <div className="item" style={{}}>
 
@@ -8,14 +9,14 @@ const Items = () => {
                 <div className="item_text">
                     <p>Title</p>
                     <div className="item_textDesc">
-                        <p>Desc</p>
+                        <p>{desc}</p>
                     </div>
                 </div>
             </div>
 
             <div className="item_lowerThird">
                 <div className="item_buttons">
-                    
+                    <Button
                 </div>
             </div>
 
