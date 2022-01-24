@@ -16,8 +16,14 @@ const Items = ({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, r
 
             <div className="item_lowerThird">
                 <div className="item_buttons">
-                    <Button
+                    <Button imp="primary" text={leftBtnTxt} link={leftBtnLink}/>
+                    {twoButtons && {
+                        <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink}/>
+                    }}
                 </div>
+                {first && {
+                    <div className="item_expand"></div>
+                }}
             </div>
 
         </div>
