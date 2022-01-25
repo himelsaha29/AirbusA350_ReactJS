@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 const Items = ({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons}) => {
     return (
@@ -7,25 +8,26 @@ const Items = ({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, r
 
             <div className="item_container">
                 <div className="item_text">
-                    <p>Title</p>
+                    <p>{title}</p>
                     <div className="item_textDesc">
                         <p>{desc}</p>
                     </div>
                 </div>
-            </div>
-
             <div className="item_lowerThird">
                 <div className="item_buttons">
                     <Button imp="primary" text={leftBtnTxt} link={leftBtnLink}/>
-                    {twoButtons && {
+                    {twoButtons && (
                         <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink}/>
-                    }}
+                    )}
                 </div>
-                {first && {
-                    <div className="item_expand"></div>
-                }}
+                {first && (
+                    <div className="item_expand">
+                        <ExpandMoreIcon />
+                    </div>
+                )}
             </div>
 
+            </div>
         </div>
     )
 }
