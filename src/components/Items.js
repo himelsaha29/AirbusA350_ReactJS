@@ -2,9 +2,12 @@ import React from 'react'
 import Button from './Button'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
-const Items = ({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons}) => {
+
+const Items = ({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons, first}) => {
     return (
-        <div className="item" style={{}}>
+        <div className="item" style={{
+            backgroundImage: `url(${backgroundImg})`
+        }}>
 
             <div className="item_container">
                 <div className="item_text">
