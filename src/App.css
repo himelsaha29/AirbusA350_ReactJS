@@ -1,24 +1,5 @@
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_itemsContainer {
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
 }
-
-
-
-.App-header {
-  background-color: #dee6ef;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #20538c;
-}
-
-
