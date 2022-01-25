@@ -17,11 +17,11 @@
 }
 
 .item_text{
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     font-size: 34px;
-    color: burlywood;
+    color: black;
     align-items: center;
     flex: 1;
 }
@@ -29,6 +29,7 @@
 .item_textDesc {
     font-weight: 200;
     font-size: 14px;
+    margin-top: -75%;
 }
 
 .item_lowerthird {
