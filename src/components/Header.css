@@ -25,6 +25,7 @@
 .header_center>p{
     margin: 18px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .header_right{
