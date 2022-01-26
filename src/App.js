@@ -13,8 +13,8 @@ function App() {
       <Header />
       <div className="app_itemsContainer">
         <Item 
-          title="title1"
-          desc="desc1"
+          title="A350 Family"
+          desc="Shaping the future of air travel"
           descLink=""
           backgroundImg={AirbusSunset}
           leftBtnTxt="Order now"
@@ -25,8 +25,8 @@ function App() {
           first
         />
         <Item 
-          title="title2"
-          desc="desc2"
+          title="Cutting-edge Aerodynamics"
+          desc="Wing design that morphs in flight for optimal efficiency"
           descLink=""
           backgroundImg={AirbusCloud}
           leftBtnTxt="Preorder now"
@@ -36,7 +36,7 @@ function App() {
           twoButtons="true"
         />
         <Item 
-          title="title2"
+          title="Truly Innovative like cristiano"
           desc="desc2"
           descLink=""
           backgroundImg={AirbusEngine}
