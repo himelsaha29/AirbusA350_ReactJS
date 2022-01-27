@@ -17,9 +17,9 @@ function App() {
           desc="Shaping the future of air travel"
           descLink=""
           backgroundImg={AirbusSunset}
-          leftBtnTxt="Order now"
+          leftBtnTxt="All variants"
           leftBtnLink=""
-          rightBtnTxt="learn more"
+          rightBtnTxt="Learn more"
           rightBtnLink=""
           twoButtons="true"
           first
@@ -36,8 +36,8 @@ function App() {
           twoButtons="true"
         />
         <Item 
-          title="Truly Innovative like cristiano"
-          desc="desc2"
+          title="Truly Innovative"
+          desc="Airframe composed of more than 70% advanced materials"
           descLink=""
           backgroundImg={AirbusEngine}
           leftBtnTxt="Preorder now"
@@ -47,8 +47,8 @@ function App() {
           twoButtons="true"
         />
         <Item 
-          title="title2"
-          desc="desc2"
+          title="Sustainability"
+          desc="Less Weight. Less Fuel. More Sustainable."
           descLink=""
           backgroundImg={AirbusBlue}
           leftBtnTxt="Preorder now"
