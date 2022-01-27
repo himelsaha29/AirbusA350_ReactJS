@@ -19,7 +19,7 @@ function App() {
           backgroundImg={AirbusSunset}
           leftBtnTxt="Variants"
           leftBtnLink=""
-          rightBtnTxt="Learn more"
+          rightBtnTxt="Discover more"
           rightBtnLink=""
           twoButtons="true"
           first
@@ -29,9 +29,9 @@ function App() {
           desc="Wing design that morphs in flight for optimal efficiency"
           descLink=""
           backgroundImg={AirbusCloud}
-          leftBtnTxt="Preorder now"
+          leftBtnTxt="Specifications"
           leftBtnLink=""
-          rightBtnTxt="learn here"
+          rightBtnTxt="Efficiency"
           rightBtnLink=""
           twoButtons="true"
         />
@@ -40,9 +40,9 @@ function App() {
           desc="Airframe composed of more than 70% advanced materials"
           descLink=""
           backgroundImg={AirbusEngine}
-          leftBtnTxt="Preorder now"
+          leftBtnTxt="Composite Materials"
           leftBtnLink=""
-          rightBtnTxt="learn here"
+          rightBtnTxt="Safety"
           rightBtnLink=""
           twoButtons="true"
         />
@@ -51,11 +51,11 @@ function App() {
           desc="Less Weight. Less Fuel. More Sustainable."
           descLink=""
           backgroundImg={AirbusBlue}
-          leftBtnTxt="Preorder now"
+          leftBtnTxt="Sustainable Aviation"
           leftBtnLink=""
-          rightBtnTxt="learn here"
+          rightBtnTxt="Learn more"
           rightBtnLink=""
-          twoButtons="true"
+          twoButtons="false"
         />
 
       </div>
