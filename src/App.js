@@ -17,7 +17,7 @@ function App() {
           desc="Shaping the future of air travel"
           descLink=""
           backgroundImg={AirbusSunset}
-          leftBtnTxt="All variants"
+          leftBtnTxt="Variants"
           leftBtnLink=""
           rightBtnTxt="Learn more"
           rightBtnLink=""
