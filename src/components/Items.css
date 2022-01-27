@@ -20,7 +20,7 @@
     margin-top: 12%;
     display: flex;
     flex-direction: column;
-    font-size: 34px;
+    font-size: 38px;
     color: black;
     align-items: center;
     flex: 1;
@@ -28,15 +28,17 @@
 
 .item_text>p{
     margin-bottom: 1%;
+    animation: translate 1.5s;
 }
 
 .item_textDesc {
     height: fit-content;
-    font-size: 20px;
+    font-size: 21.5px;
 }
 
 .item_textDesc>p {
     margin-top: 0.5%;
+    animation: fader 5s;
 }
 
 .item_lowerThird {
@@ -72,3 +74,41 @@
     }
 }
 
+
+
+
+@keyframes fader {
+    from {
+        opacity: 0;
+        animation-delay: 5s;
+
+    }
+    to {
+        opacity: 1;
+        animation-play-state: paused;
+    }
+}
+
+@keyframes translate {
+
+    from {
+        transform: translateY(12px);
+        opacity: 0;
+
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        animation-play-state: paused;
+    }
+}
+
+
+.fade-in {
+    transition: opacity 1s ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
