@@ -8,12 +8,43 @@
     align-items: center;
     border-radius: 100px;
     opacity: 0.85;
+    animation: translateButton 2s cubic-bezier(1,-0.36,.48,.91) 1;
+    
+}
+
+@keyframes translateButtonWhite {
+
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+
+    }
+    to {
+        transform: translateX(0);
+        opacity: 0.65;
+        animation-play-state: paused;
+    }
+}
+
+
+@keyframes translateButton {
+
+    from {
+        transform: translateX(-30px);
+        opacity: 0;
+
+    }
+    to {
+        transform: translateX(0);
+        opacity: 0.85;
+        animation-play-state: paused;
+    }
 }
 
 .button>a {
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     width: 100%;
 }
@@ -21,6 +52,7 @@
 .button_white {
     background-color: white;
     opacity: 0.65;
+    animation: translateButtonWhite 2s cubic-bezier(1,-0.36,.48,.91) 1;
 }
 
 .button_white>a {
