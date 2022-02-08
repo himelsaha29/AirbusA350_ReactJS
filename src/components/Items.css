@@ -29,6 +29,7 @@
 .item_text>p{
     margin-bottom: 1%;
     animation: translate 1.5s;
+    text-align: center;
 }
 
 .item_textDesc {
@@ -39,6 +40,7 @@
 .item_textDesc>p {
     margin-top: 0.5%;
     animation: fader 5s;
+    text-align: center;
 }
 
 .item_lowerThird {
